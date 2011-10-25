@@ -1,1 +1,8 @@
+<title>
+	<% if content_for?(:title) %>
+		<%= yield(:title) %>
+	<% else %>
+		Ticketee
+	<% end %>
+</title>
 <h2><%= @project.name %></h2>
