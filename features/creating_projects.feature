@@ -3,9 +3,9 @@ Feature: Creating projects
 	As a user
 	I want to create them easily
 	
-	Scenario: Creating a project
+Scenario: Creating a project
 	Given I am on the homepage
-	When I follow 'New Project'
-	And I fill in 'Name' with 'TextMate 2'
-	And I press 'Create Project'
-	Then I should see 'Project has been created.'
+	When I follow "New Project"
+	And I fill in "Name" with "TextMate 2"
+	And I press "Create Project"
+	Then I should see "Project has been created."
